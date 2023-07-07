@@ -1,5 +1,5 @@
 <x-app-layout>
-    <h1 class="text-center font-semibold text-2xl my-8">Editar Booking</h1>
+    <h1 class="text-center font-semibold text-2xl my-8">Editar Reservación</h1>
 
     <div class="max-w-lg mx-auto my-8">
         <form action="{{ route('admin.bokkings.update', $bokking->id) }}" method="post" autocomplete="off">
